@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Friend-Finder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+	font-family: 'Work Sans', sans-serif;
+    font-size:4vh;
+    font-weight: 100;
+}
+input{
+    display:inline;
+}
+</style>
+
+<body>
+    <div class="container">
+        <h2>Survey Questions</h2>
+        <hr>    
+        <h3>About You</h3>
+        <input type="text" id="userName" class="form-control" required>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="userPhoto" class="form-control" required>
+        <hr>
+        <p class="text-center"> 1 = Strongly Disagree &nbsp;  2 = Disagree &nbsp;  3 = Neutral &nbsp; 4 = Agree&nbsp; 5 = Strongly Agree</p>
+        <hr>
+            <form>
+                <!-- question 1 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#1. I consider myself a people person</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q1" value=1> 1
+                            <input type="radio" name="q1" value=2> 2
+                            <input type="radio" name="q1" value=3> 3 
+                            <input type="radio" name="q1" value=4> 4
+                            <input type="radio" name="q1" value=5> 5
+                        </div>
+                </div>
+                <!-- question 2 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#2. I tend to make decisions only when I have a good feeling about it</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q2" value=1> 1
+                            <input type="radio" name="q2" value=2> 2
+                            <input type="radio" name="q2" value=3> 3 
+                            <input type="radio" name="q2" value=4> 4
+                            <input type="radio" name="q2" value=5> 5
+                        </div>
+                </div>
+                <!-- question 3 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#3. On most purchases, I would rather save than spend</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q3" value=1> 1
+                            <input type="radio" name="q3" value=2> 2
+                            <input type="radio" name="q3" value=3> 3 
+                            <input type="radio" name="q3" value=4> 4
+                            <input type="radio" name="q3" value=5> 5
+                        </div>
+                </div>
+                <!-- question 4 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#4. I consider myself highly disciplined and a rule keeper</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q4" value=1> 1
+                            <input type="radio" name="q4" value=2> 2
+                            <input type="radio" name="q4" value=3> 3 
+                            <input type="radio" name="q4" value=4> 4
+                            <input type="radio" name="q4" value=5> 5
+                        </div>
+                </div>
+                <!-- question 5 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#5. I eat healthy and regularly exercise</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q5" value=1> 1
+                            <input type="radio" name="q5" value=2> 2
+                            <input type="radio" name="q5" value=3> 3 
+                            <input type="radio" name="q5" value=4> 4
+                            <input type="radio" name="q5" value=5> 5
+                        </div>
+                </div>
+                <!-- question 6 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#6. I barely read IKEA instructions and figure it out as I go</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q6" value=1> 1
+                            <input type="radio" name="q6" value=2> 2
+                            <input type="radio" name="q6" value=3> 3 
+                            <input type="radio" name="q6" value=4> 4
+                            <input type="radio" name="q6" value=5> 5
+                        </div>
+                </div>
+                <!-- question 7 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#7. I don't mind being messy</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q7" value=1> 1
+                            <input type="radio" name="q7" value=2> 2
+                            <input type="radio" name="q7" value=3> 3 
+                            <input type="radio" name="q7" value=4> 4
+                            <input type="radio" name="q7" value=5> 5
+                        </div>
+                </div>
+                <!-- question 8 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#8. I prefer being part of a group over working alone</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q8" value=1> 1
+                            <input type="radio" name="q8" value=2> 2
+                            <input type="radio" name="q8" value=3> 3 
+                            <input type="radio" name="q8" value=4> 4
+                            <input type="radio" name="q8" value=5> 5
+                        </div>
+                </div>
+                <!-- question 9 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#9. Family is the most important thing in my life</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q9" value=1> 1
+                            <input type="radio" name="q9" value=2> 2
+                            <input type="radio" name="q9" value=3> 3 
+                            <input type="radio" name="q9" value=4> 4
+                            <input type="radio" name="q9" value=5> 5
+                        </div>
+                </div>
+                <!-- question 10 -->
+                <div class="row">
+                        <div class="col-form-label col-sm-12 col-md-9 pt-0">#10. I have a hard time feeling other's pain</div>
+                        <div class="col-sm-12 col-md-3">
+                            <input type="radio" name="q10" value=1> 1
+                            <input type="radio" name="q10" value=2> 2
+                            <input type="radio" name="q10" value=3> 3 
+                            <input type="radio" name="q10" value=4> 4
+                            <input type="radio" name="q10" value=5> 5
+                        </div>
+                </div>
+            </form> 
+            <!-- questions end here -->
+        <button type="submit" id="submit" class="btn btn-success btn-lg btn-block">Submit</button>
+        <hr>
+            <h5 class='text-dark'><a href='/api/friends'>API Friends List</a> | <a href='https://github.com/tomkim825/FriendFinder'>GitHub Repo</a></h5>
+    </div>
+  <!-- Modal -->
+  <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+    
+          <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title"><strong>Best Match</strong></h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>              
+            </div>
+            <div class="modal-body">
+              <h2 id="match-name"></h2>
+              <img id="match-img" src='' alt='image of match' width=300px>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>    
+        </div>
+    </div>
+    <!-- end of Modal -->
+
+<!-- JAVASCRIPT BELOW -->
+<script type="text/javascript">
+    var allAnswered = true; // flag to allow AJAX call
+    $("#submit").on("click", function(event) {
+    event.preventDefault();
+    allAnswered = true; //reset this flag on each submit click in case they went back and filled in.
+    // function displays info is missing
+    function displayMissingInfo(message){
+        $("#match-name").text(message);
+        $("#match-img").attr("src", 'https://tse3.mm.bing.net/th?id=OIP.wgTNgKiXHfJphFGTBdjCCwHaGu');
+        $("#results-modal").modal("toggle"); 
+    }
+    // if the name or photo section is blank, run the missing info function 
+    if( ( $("#userName").val() === '' ) || ( $("#userPhoto").val() === '' ) ) { displayMissingInfo('Please fill out name and/or image');  allAnswered = false }
+    else {  // OTHERWISE, move on and check if the answers are all answered 
+        for (var i=1; i<11; i++){ // run a for loop for question 1-10 to see if they are all checked. If undefined, run missing info function
+            if (  eval(" $('input:radio[name=q"+i+"]:checked').val()") === undefined )  { displayMissingInfo('Please answer all questions'); allAnswered = false};
+        } 
+    };
+    // ---------------[START of JSON]-------------------
+    // create object to be POSTed as a JSON
+    var userSurvey = {
+        name: $("#userName").val().trim(),
+        photo: $("#userPhoto").val().trim(),
+        scores: [
+        parseInt( $('input:radio[name=q1]:checked').val()),
+        parseInt( $('input:radio[name=q2]:checked').val()),
+        parseInt( $('input:radio[name=q3]:checked').val()),
+        parseInt( $('input:radio[name=q4]:checked').val()),
+        parseInt( $('input:radio[name=q5]:checked').val()),
+        parseInt( $('input:radio[name=q6]:checked').val()),
+        parseInt( $('input:radio[name=q7]:checked').val()),
+        parseInt( $('input:radio[name=q8]:checked').val()),
+        parseInt( $('input:radio[name=q9]:checked').val()),
+        parseInt( $('input:radio[name=q10]:checked').val())
+        ] //end of survey scores
+    } // end of object
+    // ---------------[ END of JSON]-------------------
+
+    // -----------[start of AJAX] ----------------- 
+    if( ( $("#userName").val() !== '' ) && ( $("#userPhoto").val() !== '' ) && (allAnswered) ){ //only run AJAX if all fields are entered
+        $.post("/api/friends", userSurvey, function(data) {
+
+        // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+        $("#match-name").text(data.name);
+        $("#match-img").attr("src", data.photo);
+
+        // Show the modal with the best match
+        $("#results-modal").modal("toggle");
+        }); 
+    }
+    // -----------[end of AJAX] ----------------- 
+
+    // ---------------------failed attempts------------------------
+    // I tried some options for clearing out the radio inputs but I can't get them to work
+    // $("input:radio[name=q7]").attr("checked", false);
+    // $('input[type=radio]').uncheckableRadio();
+    // $("input:radio[name=q7]").removeAttr("checked");
+    // ---------------------failed attempts------------------------
+            
+    }) // end of submit button click event
+
+</script>
+</body>
