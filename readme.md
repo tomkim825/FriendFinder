@@ -18,4 +18,6 @@ node server.js
 Then go to localhost:8000 on chrome
 ```
 ## screenshots
-![gif of customer terminal](https://github.com/tomkim825/BAMazon/blob/master/customer.gif)
+![screenshot1](https://github.com/tomkim825/FriendFinder/blob/master/app/images/Capture.JPG?raw=true)
+![screenshot1](https://github.com/tomkim825/FriendFinder/blob/master/app/images/Capture2.JPG?raw=true)
+![screenshot1](https://github.com/tomkim825/FriendFinder/blob/master/app/images/Capture3.JPG?raw=true)
